@@ -10,16 +10,19 @@ Questions regarding ML in drug discovery that keep me up at night
 - Is there a case in the literature where a 3D QSAR method has outperformed 2D?
 
 ### Defining a model’s applicability domain
-- Can we improve similarity to the training set when determining model applicability?
+- Can we improve on the similarity to the training set when determining model applicability?
 - Can model uncertainty help us understand where a model will perform poorly?
 
 ### Global vs local models 
+- Do local models really outperform global models?  How can we test this? 
 
 ### Multi-task models 
 - How closely related to tasks do they have to be for multitasking to be effective?
 - Can multitasking make models worse?
 
 ### Foundation models and fine-tuning
+- What is the impact of dataset size on foundation model performance?
+- What is the impact of dataset composition on foundation model performance? 
 
 ### Quantifying uncertainty 
 - Are ensembles the best way to quantify uncertainty?
