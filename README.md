@@ -22,7 +22,10 @@ Questions regarding ML in drug discovery that keep me up at night.  Please submi
 
 ### Foundation models and fine-tuning
 - What is the impact of dataset size on foundation model performance?
-- What is the impact of dataset composition on foundation model performance? 
+- What is the impact of dataset composition on foundation model performance?
+
+### Model interpretability
+- How do we get to models that can provide guidance on what to make next? 
 
 ### Quantifying uncertainty 
 - Are ensembles the best way to quantify uncertainty?
