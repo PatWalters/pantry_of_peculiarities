@@ -8,6 +8,8 @@ Questions regarding ML in drug discovery that keep me up at night.  Please submi
 - As chemists, we know that benzene and thiophene are isosteric and similar, so why don't our molecular representations capture this?
 - How can we incorporate conformational flexibility into a molecular representation (i.e., how do we handle multiple conformers in ML)?
 - Is there a case in the literature where a 3D QSAR method has outperformed 2D?
+- Key references
+  - https://pubs.acs.org/doi/10.1021/acs.jmedchem.0c00385
 
 ### Defining a model’s applicability domain
 - Can we improve on the similarity to the training set when determining model applicability?
