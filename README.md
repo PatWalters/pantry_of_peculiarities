@@ -1,5 +1,5 @@
 # Pat's Cabinet of Curiosities
-Questions regarding ML in drug discovery that keep me up at night
+Questions regarding ML in drug discovery that keep me up at night.  Please submit an issue or PR to comment, add to, or change this list.
 
 ### Molecular Representation
 - Are learned representations better? How can we prove it?
