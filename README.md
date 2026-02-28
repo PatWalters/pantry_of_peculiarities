@@ -53,6 +53,7 @@ Questions regarding ML in drug discovery that keep me up at night.  Please submi
 - Do standard benchmarks (e.g., MoleculeNet) actually reflect real-world drug discovery challenges like time-based splits or structural novelty?
 - How can we develop metrics that correlate better with success in the "wet lab" than simple ROC-AUC or RMSE?
 - Key references
+    - https://practicalcheminformatics.blogspot.com/2023/08/we-need-better-benchmarks-for-machine.html
     - https://polaris-hub.github.io/polaris-catalog/ (Polaris)
 
 ### Data Quality & Experimental Bias
