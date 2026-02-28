@@ -49,3 +49,48 @@ Questions regarding ML in drug discovery that keep me up at night.  Please submi
 - Key references
     - https://www.sciencedirect.com/science/article/pii/S2666389923000016
 
+### Benchmark Realism & Validation
+- Do standard benchmarks (e.g., MoleculeNet) actually reflect real-world drug discovery challenges like time-based splits or structural novelty?
+- How can we develop metrics that correlate better with success in the "wet lab" than simple ROC-AUC or RMSE?
+- Key references
+    - https://polaris-hub.github.io/polaris-catalog/ (Polaris)
+
+### Data Quality & Experimental Bias
+- How much of our model performance is derived from memorizing experimental noise or artifacts in public datasets?
+- How do we handle "publication bias" (the missing negative results) when training on literature-mined data?
+- Can we reliably integrate data across different labs and assays (the "batch effect" problem)?
+- Key references
+    - https://doi.org/10.1021/acs.jcim.9b01075 (In Need of Bias Control)
+    - https://doi.org/10.1038/s41592-021-01205-4 (DOME recommendations)
+
+### Active Learning & Experimental Design
+- What is the optimal strategy for balancing exploration (sampling new chemical space) vs. exploitation (optimizing a lead series)?
+- How do we choose the most "informative" compounds to synthesize when resources are limited to 10–20 molecules per cycle?
+- Key references
+    - https://doi.org/10.1002/minf.201400153 (Active-learning strategies)
+
+### Synthesis & Feasibility
+- How do we incorporate "synthesizability" into generative models without restricting them to trivial chemistry?
+- Can ML accurately predict reaction yields and purification difficulty, or just "if" a reaction works?
+- Key references
+    - https://doi.org/10.1021/acs.accounts.8b00462 (Computer-Aided Synthesis Planning)
+
+### Bridging Physics and ML
+- How can we use ML to accelerate physics-based simulations (e.g., MD, QM) without losing their fundamental accuracy?
+- Do hybrid models (ML + Physics) generalize better to novel scaffolds than pure ML models?
+- Key references
+    - https://doi.org/10.1039/D1SC06578C (PIGNet)
+
+### Biology & Systems Complexity
+- Can we transition from predicting "binding to a protein" to predicting "cellular or organism-level effects"?
+- How do we model "polypharmacology" (multi-target effects) to predict both efficacy and off-target toxicity?
+- Key references
+    - https://doi.org/10.1038/s41587-023-01784-y (Foundation models for biology)
+
+### Low-Data Regimes (SAR-lite)
+- How can we build useful models when we only have 5–10 data points at the start of a project?
+- Are transfer learning or few-shot learning techniques actually effective in these "SAR-lite" scenarios?
+- Key references
+    - https://doi.org/10.48550/arXiv.2104.10681 (FS-Mol)
+    - https://doi.org/10.1039/D4SC05204F (MHNfs)
+
