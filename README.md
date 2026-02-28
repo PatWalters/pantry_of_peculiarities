@@ -17,7 +17,9 @@ Questions regarding ML in drug discovery that keep me up at night.  Please submi
 - Can model uncertainty help us understand where a model will perform poorly?
 
 ### Global vs local models 
-- Do local models really outperform global models?  How can we test this? 
+- Do local models really outperform global models?  How can we test this?
+- Key references
+  - https://doi.org/10.1021/acs.molpharmaceut.2c00962
 
 ### Multi-task models 
 - How closely related to tasks do they have to be for multitasking to be effective?
