@@ -1,5 +1,5 @@
 # Pat's Pantry of Peculiarities
-<img src="pantry.png" alt="" width="300"/>
+<img src="pantry.png" alt="" width="600"/>
      
 Questions regarding ML in drug discovery that keep me up at night.  Please submit an issue or PR to comment, add to, or change this list.
 
